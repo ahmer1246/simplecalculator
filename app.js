@@ -14,7 +14,8 @@ arr.forEach(button=>{
             inputEl.value =string;
         }
         else if(e.target.innerHTML == "AC"){
-           string =" "
+           string =" ";
+            input.value=string;
         }
         else{
             string+= e.target.innerHTML;
